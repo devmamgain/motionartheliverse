@@ -49,7 +49,7 @@ const FrontPage =()=>{
     return(
 
         <div  className="bg-[#0c0c24] min-h-screen flex flex-col flex-grow justify-center items-center ">
-<canvas ref={canvas} className="w-full h-full fixed top-0 left-0 z-0 bg-[#0e0e1b02]  " ></canvas>
+<canvas ref={canvas} className="w-full h-full fixed top-0 left-0 z-0 bg-[#0e0e1b02] sm:invisible sm2:visible" ></canvas>
 
             {/* <div className="fixed top-0 left-0 w-full h-full  pointer-events-none" style={{ opacity: 0.1}}>
 
